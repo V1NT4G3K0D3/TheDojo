@@ -1,0 +1,54 @@
+body {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 65.3%;
+}
+
+.container {
+    position: absolute;
+    bottom: 4rem;
+    left: 10rem;
+}
+
+.containerImg {
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+    width: 15rem;
+}
+
+button {
+    position: absolute;
+    border: none;
+    color: grey;
+    /* font-size: 1rem; */
+    padding: 0.5 rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#kick {
+    top: 4rem;
+    right: 10rem;
+}
+
+#punch {
+    top: 5.5rem;
+    right: 10rem;
+}
+
+#forward {
+    top: 7rem;
+    right: 10rem;
+}
+
+#backward {
+    top: 8.5rem;
+    right: 10rem;
+}
+
+#block {
+    top: 10rem;
+    right: 10rem;
+}
